@@ -1,0 +1,27 @@
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .slider-image {
+    max-width: 100%;
+    max-height: 400px; /* Set the maximum height for your images */
+    object-fit: contain; /* Adjust the image positioning inside the container */
+  }
+  
+  .slider-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slider-buttons button {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
